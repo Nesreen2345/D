@@ -1,0 +1,154 @@
+body {
+    background-color: #78a8b2
+
+}
+
+*{display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column}
+
+    *{
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+.card {
+    
+    border: none;
+    box-shadow: 5px 6px 6px 2px #a4a5a7fd;
+    border-radius: 2px;
+}
+#myDIV,#myDIV1, #myDIV2{
+    width: 10%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(105, 113, 105);
+    margin-top: 20px;
+  }
+  form {
+	width: 350px;
+    height: 400px;
+	border: 2px solid #ffffff;
+	padding: 30px;
+	background:  #d0deeca2;
+	border-radius: 20px;
+}
+.dots{
+
+    height: 4px;
+  width: 4px;
+  margin-bottom: 2px;
+  background-color: #480a0a;
+  border-radius: 50%;
+  display: inline-block;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 50%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+.badge{
+
+        padding: 7px;
+        padding-right: 9px;
+    padding-left: 16px;
+    box-shadow: 5px 6px 6px 2px #d0deecac;
+}
+
+.user-img{
+
+    margin-top: 4px;
+}
+button {
+	float: right;
+	background: #0000006a;
+    border: 2px solid #ffffff;
+	padding: 10px 10px;
+	color: #fff;
+	border-radius:5px;
+	margin-right: 5px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+ }
+.check-icon{
+
+    font-size: 17px;
+    color: #c3bfbf;
+    top: 1px;
+    position: relative;
+    margin-left: 3px;
+}
+
+.form-check-input{
+    margin-top: 6px;
+    margin-left: -24px !important;
+    cursor: pointer;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+}
+a {
+	float: right;
+	background: #00000079;
+    border: 2px solid #ffffff;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 5px;
+	border: none;
+	text-decoration: none;
+}
+.form-check-input:focus{
+    box-shadow: none;
+}
+
+a:hover{
+	opacity: .7;
+}
+.icons i{
+
+    margin-left: 8px;
+}
+.reply{
+
+    margin-left: 12px;
+}
+
+.reply small{
+
+    color: #b7b4b4;
+
+}
+
+
+.reply small:hover{
+
+    color: green;
+    cursor: pointer;
+
+}
+
